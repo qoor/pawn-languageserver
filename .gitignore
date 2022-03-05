@@ -1,2 +1,18 @@
-build/
-**/.cache/
+.clangd
+/.clangd/
+/.clangd-index/
+# Settings directories for eclipse
+/.externalToolBuilders/
+/.settings/
+/.vs/
+# Visual Studio Code
+.vscode/
+.vscode-server/
+
+/build/
+
+# Ignore IntelliJ files.
+.idea/
+
+# Ignore cache folder created by clangd
+.cache/
