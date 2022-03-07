@@ -38,5 +38,10 @@ ninja -C out
 cd out && ninja
 ```
 
+## Contribute
+This project is follow the [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html) unless it is a `third_party`.
+
+All codes in `third_party` uses their style.
+
 ## License
 pawn-ls is licensed under [2-clause BSD](LICENSE).
