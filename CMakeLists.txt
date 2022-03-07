@@ -11,6 +11,7 @@ project(pawn-ls
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/build")
 
 option(CMAKE_EXPORT_COMPILE_COMMANDS "Exports compile_commands.json" ON)
 # PAWN compiler driver always built as a shared library.
@@ -25,3 +26,4 @@ set(PAWN_LS_COMMON_INCLUDE_DIR
   ${CMAKE_CURRENT_BINARY_DIR})
 
 add_subdirectory(third_party)
+add_subdirectory(build)

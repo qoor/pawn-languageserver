@@ -9,7 +9,7 @@
 .vscode/
 .vscode-server/
 
-/build/
+/out/
 
 # Ignore IntelliJ files.
 .idea/
