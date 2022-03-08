@@ -16,3 +16,5 @@
 
 # Ignore cache folder created by clangd
 .cache/
+
+compile_commands.json
