@@ -11,9 +11,9 @@ project(pawn-ls
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/third_party/basium/build")
 
-option(CMAKE_EXPORT_COMPILE_COMMANDS "Exports compile_commands.json" ON)
 # PAWN compiler driver always built as a shared library.
 # So it is strongly recommended to enable `BUILD_SHARED_LIBS`.
 option(BUILD_SHARED_LIBS "Build libraries as shared" ON)
