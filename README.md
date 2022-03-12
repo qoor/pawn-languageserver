@@ -15,7 +15,7 @@ This project is the implementation of language server for PAWN Language.
 ## Getting Started
 1. Clone this repo
 ```shell
-git clone https://github.com/qoor/pawn-ls.git
+git clone --recursive https://github.com/qoor/pawn-ls.git
 ```
 
 2. Generate build files using CMake
