@@ -7,8 +7,8 @@ cmake_minimum_required(VERSION 3.11)
 include(FetchContent)
 FetchContent_Declare(
   pawn
-  GIT_REPOSITORY https://github.com/pawn-lang/compiler.git
-  GIT_TAG 134ad7a836c581546665340aedb59efd4636e269
+  GIT_REPOSITORY https://github.com/qoor/pawn.git
+  GIT_TAG 9ce20d434c4784ff60b1a9bf9f5131b12c3f443a
   SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src
   BINARY_DIR ${CMAKE_CURRENT_BINARY_DIR})
 
