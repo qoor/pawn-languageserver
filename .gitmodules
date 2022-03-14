@@ -3,4 +3,4 @@
 	url = https://github.com/abseil/abseil-cpp.git
 [submodule "third_party/basium"]
 	path = third_party/basium
-	url = git@github.com:qoor/basium.git
+	url = https://github.com/qoor/basium.git
